@@ -37,7 +37,15 @@ Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładow
 
 ```
 
+
 ## Nagrody
+Narodą za najlepsze rozwiązanie jest super koszulka DataMass best codder + zestaw naklejek + Jack Daniels.
+
+
+
+
+
+
 
 
 
