@@ -3,7 +3,7 @@
 ## Zadanie
 Konkrus polega na optymalizacji kodu spark-scala służacego do określania ilości unikalnych rokordów zapisanych w poszczególnych kolumnach. 
 
-Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładowy plik testowy (około 100 MB).
+Kod został umieszczony w objekcie Driver. W projecie dodany został przykładowy plik testowy (src/main/resources/file.parquet). Plik waży około 100 MB.
 
 
 ```
@@ -39,7 +39,7 @@ Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładow
 
 
 ## Nagrody
-Narodą za najlepsze rozwiązanie jest super koszulka DataMass best codder + zestaw naklejek + Jack Daniels.
+Narodą za najlepsze (najszybsze) rozwiązanie jest super koszulka "DataMass Best Spark Coder" + zestaw naklejek + Jack Daniels :)
 
 
 
