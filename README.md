@@ -37,6 +37,11 @@ Kod został umieszczony w objekcie Driver. W projecie dodany został przykładow
 
 ```
 
+## Uruchomienie na CDH
+
+```
+spark-submit --class WordCount SparkApp.JAR
+```
 
 ## Nagrody
 Narodą za najlepsze (najszybsze) rozwiązanie jest super koszulka "DataMass Best Spark Coder" + zestaw naklejek + Jack Daniels :)
