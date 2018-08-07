@@ -43,6 +43,18 @@ Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładow
 spark-submit --class Driver SparkApp.JAR
 ```
 
+## Testowanie
+
+- rozwiązanie testujemy na klastrze (info o środowisku jutro)
+- weryfikujemy czas wykonywania obliczeń 
+- akceptujemy czas, jeśli podczas 3 niezależnych prób otrzymujemy zbliżone wartości
+
+UWAGA: Przed rozpoczenciem testowania sprawdzamy czy na klastrze nie są uruchomione inne aplikacje
+
+```
+[cloudera@quickstart ~]$ yarn application -list
+```
+
 ## Nagrody
 Narodą za najlepsze (najszybsze) rozwiązanie jest super koszulka "DataMass Best Spark Coder" + zestaw naklejek + Jack Daniels :)
 
