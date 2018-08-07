@@ -3,7 +3,7 @@
 ## Zadanie
 Konkrus polega na optymalizacji kodu spark-scala służacego do określania ilości unikalnych rekordów zapisanych w poszczególnych kolumnach. 
 
-Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładowy plik testowy (src/main/resources/file.parquet). Plik waży około 100 MB.
+Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładowy plik testowy (src/main/resources/file.parquet). Plik waży około 100 MB. Na klastrze umieszczę coś większego (800MB).
 
 
 ```
