@@ -1,9 +1,12 @@
 # spark-uniqness
 
-## Zadanie
-Konkrus polega na optymalizacji kodu spark-scala służacego do określania ilości unikalnych rekordów zapisanych w poszczególnych kolumnach. 
+## Task
 
-Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładowy plik testowy (src/main/resources/file.parquet). Plik waży około 100 MB. Na klastrze umieszczę coś większego (800MB).
+
+The purpose of this task is connected with Spark code optimization. Originally written code is used for counting unique values stored in parquet datafile.
+
+
+Scala code is stored in Driver object. A testing file was added to the project (src/main/resources/file.parquet) - it has around 100 MB. AWS testing file will be much bigger and will have around 800MB.
 
 
 ```
@@ -37,26 +40,27 @@ Kod został umieszczony w obiekcie Driver. W projecie dodany został przykładow
 
 ```
 
-## Uruchomienie na CDH
+## Run
 
 ```
 spark-submit --class Driver SparkApp.JAR
 ```
 
-## Testowanie
+## Testing
 
-- rozwiązanie testujemy na klastrze (info o środowisku jutro)
-- weryfikujemy czas wykonywania obliczeń 
-- akceptujemy czas, jeśli podczas 3 niezależnych prób otrzymujemy zbliżone wartości
+- a solution should be tested on AWS cluster
+- execution time is measured
+- acceptance criteria: execution time need to be very similar during 3 independent runs 
 
-UWAGA: Przed rozpoczenciem testowania sprawdzamy czy na klastrze nie są uruchomione inne aplikacje
+NOTE: Before testing make sure there is nothing currently running on the cluster
 
 ```
 [cloudera@quickstart ~]$ yarn application -list
 ```
 
-## Nagrody
-Narodą za najlepsze (najszybsze) rozwiązanie jest super koszulka "DataMass Best Spark Coder" + zestaw naklejek + Jack Daniels :)
+## Prizes
+Award for the best solution (the fastest one) will be a t-shirt "DataMass Best Spark Coder" + set of stickers + Jack Daniels. 
+:)
 
 
 
